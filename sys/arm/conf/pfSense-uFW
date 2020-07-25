@@ -1,4 +1,0 @@
-include		uFW
-include		pfSense
-
-ident		pfSense-uFW

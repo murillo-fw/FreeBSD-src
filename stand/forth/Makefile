@@ -34,8 +34,8 @@ FILES+=	support.4th
 FILES+=	version.4th
 
 # Murillo
-FILES+= logo-Murillo.4th
-FILES+= brand-Murillo.4th
+FILES+= logo-murillo.4th
+FILES+= brand-murillo.4th
 
 # Allow machine specific loader.rc to be installed.
 .for f in loader.rc menu.rc

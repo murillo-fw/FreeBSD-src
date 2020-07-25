@@ -1,4 +1,4 @@
-\ Copyright (c) 2004-2015 Electric Sheep Fencing LLC
+\ Copyright (c) 2020 Murillo <murillo.secure@gmail.com>
 \ All rights reserved.
 \ 
 \ Redistribution and use in source and binary forms, with or without
@@ -32,23 +32,24 @@
 	1+ \ increase y for next time we're called
 ;
 
-: logo ( x y -- ) \ B/W pfSense logo (15 rows x 32 columns)
+: logo ( x y -- ) \ B/W M. (16 rows x 37 columns)
 
-	s"                               " logo+
-	s"                               " logo+
-	s"   __________________________  " logo+
-	s"  /                       ___\ " logo+
-	s" |                      /`     " logo+
-	s" |                     /    :-|" logo+
-	s" |      _________  ___/    /_ |" logo+
-	s" |    /` ____   / /__    ___/ |" logo+
-	s" |   /  /   /  /    /   /     |" logo+
-	s" |  /  /___/  /    /   /      |" logo+
-	s" | /   ______/    /   /       |" logo+
-	s" |/   /          /   /        |" logo+
-	s"     /          /___/         |" logo+
-	s"    /                         |" logo+
-	s"   /_________________________/ " logo+
+  s"MMMMMMMM               MMMMMMMM      " logo+
+  s"M:::::::M             M:::::::M      " logo+
+  s"M::::::::M           M::::::::M      " logo+
+  s"M:::::::::M         M:::::::::M      " logo+
+  s"M::::::::::M       M::::::::::M      " logo+
+  s"M:::::::::::M     M:::::::::::M      " logo+
+  s"M:::::::M::::M   M::::M:::::::M      " logo+
+  s"M::::::M M::::M M::::M M::::::M      " logo+
+  s"M::::::M  M::::M::::M  M::::::M      " logo+
+  s"M::::::M   M:::::::M   M::::::M      " logo+
+  s"M::::::M    M:::::M    M::::::M      " logo+
+  s"M::::::M     MMMMM     M::::::M      " logo+
+  s"M::::::M               M::::::M      " logo+
+  s"M::::::M               M::::::M......" logo+
+  s"M::::::M               M::::::M.::::." logo+
+  s"MMMMMMMM               MMMMMMMM......" logo+
 
 	2drop
 ;

@@ -1,4 +1,4 @@
-\ Copyright (c) 2004-2015 Electric Sheep Fencing LLC
+\ Copyright (c) 2020 Murillo <murillo.secure@gmail.com>
 \ All rights reserved.
 \ 
 \ Redistribution and use in source and binary forms, with or without
@@ -32,15 +32,15 @@
 	1+ \ increase y for next time we're called
 ;
 
-: brand ( x y -- ) \ "pfSense" [wide] logo in B/W (7 rows x 42 columns)
+: brand ( x y -- ) \ "Murillo" [wide] logo in B/W (7 rows x 42 columns)
 
-	s"          __                               " brand+
-	s"   _ __  / _|___  ___ _ __  ___  ___       " brand+
-	s"  | '_ \| |_/ __|/ _ \ '_ \/ __|/ _ \      " brand+
-	s"  | |_) |  _\__ \  __/ | | \__ \  __/      " brand+
-	s"  | .__/|_| |___/\___|_| |_|___/\___|      " brand+
-	s"  |_|                                      " brand+
-	s"                                           " brand+
+  s"      __  __            _ _ _            " brand+
+  s"     |  \/  |          (_) | |           " brand+
+  s"     | \  / |_   _ _ __ _| | | ___       " brand+
+  s"     | |\/| | | | | '__| | | |/ _ \      " brand+
+  s"     | |  | | |_| | |  | | | | (_) |     " brand+
+  s"     |_|  |_|\__,_|_|  |_|_|_|\___(_)    " brand+
+  s"                                         " brand+
 
 	2drop
 ;

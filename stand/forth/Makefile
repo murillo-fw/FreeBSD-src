@@ -33,9 +33,9 @@ FILES+=	shortcuts.4th
 FILES+=	support.4th
 FILES+=	version.4th
 
-# pfSense
-FILES+=	logo-pfSensebw.4th
-FILES+=	brand-pfSense.4th
+# Murillo
+FILES+= logo-Murillo.4th
+FILES+= brand-Murillo.4th
 
 # Allow machine specific loader.rc to be installed.
 .for f in loader.rc menu.rc

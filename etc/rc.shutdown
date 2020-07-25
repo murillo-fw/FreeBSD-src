@@ -27,9 +27,9 @@
 # $FreeBSD$
 #
 
-# Call pfSense version of this script when it's available
-if [ -f /etc/pfSense-rc.shutdown ]; then
-	. /etc/pfSense-rc.shutdown
+# Call Murillo version of this script when it's available
+if [ -f /etc/Murillo-rc.shutdown ]; then
+	. /etc/Murillo-rc.shutdown
 	exit 0
 fi
 

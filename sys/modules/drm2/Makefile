@@ -28,7 +28,7 @@ _radeonkmsfw=	radeonkmsfw
 . endif
 .endif
 
-# Do not build radeon modules for pfSense
+# Do not build radeon modules for Murillo
 _radeonkms=
 _radeonkmsfw=
 

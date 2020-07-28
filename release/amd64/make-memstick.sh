@@ -41,7 +41,7 @@ makefs -B little -o label=FreeBSD_Install -o version=2 ${2}.part ${1}
 rm ${1}/etc/fstab
 rm ${1}/etc/rc.conf.local
 
-mkimg -s mbr \
+mkimg -s gpt \
     -b ${1}/boot/mbr \
     -p efi:=${1}/boot/boot1.efifat \
     -p freebsd:-"mkimg -s bsd -b ${1}/boot/boot -p freebsd-ufs:=${2}.part" \
